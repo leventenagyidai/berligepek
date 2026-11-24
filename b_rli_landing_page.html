@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="hu" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bérli – Kärcher kárpittisztító házhoz szállítva | Budapest XIII. kerület</title>
+  <meta name="description" content="Kärcher kárpittisztító gép bérlés ingyenes esti házhoz szállítással a Budapest XIII. kerületben. 8 900 Ft / 24 óra, gyári tisztítószerrel, kopásdíj nélkül." />
+
+  <!-- Google Fonts: Plus Jakarta Sans & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind egyéni konfiguráció a betűtípusokhoz -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased selection:bg-amber-300 selection:text-slate-900">
+
+  <!-- ==================== 1. NAVIGÁCIÓS SÁV ==================== -->
+  <header class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/85 backdrop-blur-md">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3.5 sm:px-6">
+      <!-- Bal oldal: Logó + XIII. kerület badge -->
+      <a href="#" class="flex items-center gap-2.5 group focus:outline-none">
+        <div class="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-400 text-slate-900 shadow-sm transition-transform duration-200 group-hover:scale-105">
+          <!-- Egyszerű, modern villám/szállítás ikon -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+          </svg>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="font-display text-xl font-extrabold tracking-tight text-slate-900">Bérli</span>
+          <span class="hidden sm:inline-flex items-center rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-semibold text-slate-600 border border-slate-200/80">
+            XIII. kerület
+          </span>
+        </div>
+      </a>
+
+      <!-- Jobb oldal: CTA gomb -->
+      <a href="#foglalas" class="inline-flex items-center justify-center rounded-xl bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-all duration-200 hover:bg-slate-800 hover:shadow active:scale-[0.98]">
+        Időpontot foglalok
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==================== 2. HERO SZEKCIÓ ==================== -->
+    <section class="relative overflow-hidden bg-white pt-10 pb-16 sm:pt-16 sm:pb-24 border-b border-slate-200/70">
+      <!-- Finom háttér dekoráció -->
+      <div class="pointer-events-none absolute -top-24 right-0 h-72 w-72 rounded-full bg-amber-200/35 blur-3xl"></div>
+      <div class="pointer-events-none absolute bottom-0 left-0 h-64 w-64 rounded-full bg-emerald-100/40 blur-3xl"></div>
+
+      <div class="relative mx-auto max-w-5xl px-4 sm:px-6">
+        <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-12">
+          <!-- Bal oldali tartalom -->
+          <div class="lg:col-span-7 text-center lg:text-left">
+            <!-- Lokáció jelvény -->
+            <div class="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50/90 px-3.5 py-1.5 text-xs sm:text-sm font-medium text-emerald-800 mb-6">
+              <span class="relative flex h-2.5 w-2.5">
+                <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+                <span class="relative inline-flex h-2.5 w-2.5 rounded-full bg-emerald-500"></span>
+              </span>
+              Budapest XIII. kerület • Újlipótváros, Vizafogó, Angyalföld, Marina Part
+            </div>
+
+            <!-- Főcím -->
+            <h1 class="font-display text-3xl sm:text-5xl font-extrabold tracking-tight text-slate-900 leading-[1.12]">
+              Kärcher kárpittisztító <span class="relative inline-block">
+                <span class="relative z-10">házhoz szállítva</span>
+                <span class="absolute bottom-1 left-0 -z-0 h-3 w-full rounded bg-amber-300/70"></span>
+              </span>
+            </h1>
+
+            <!-- Alcím -->
+            <p class="mt-5 text-base sm:text-lg leading-relaxed text-slate-600 max-w-xl mx-auto lg:mx-0">
+              Ne utazz kölcsönzőbe és ne cipekedj. 16:00 és 20:30 között kivisszük a lakásodig, másnap elhozzuk – tisztítószerrel együtt.
+            </p>
+
+            <!-- Kiemelt ársáv -->
+            <div class="mt-7 inline-flex flex-wrap items-center justify-center lg:justify-start gap-x-4 gap-y-2 rounded-2xl border border-amber-200/90 bg-amber-50/80 px-5 py-3.5 text-sm font-semibold text-slate-800 shadow-sm">
+              <span class="font-display text-lg font-extrabold text-slate-900">8 900 Ft / 24 óra</span>
+              <span class="text-amber-400">•</span>
+              <span class="flex items-center gap-1.5 text-slate-700">
+                <svg class="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Ingyenes kiszállítás
+              </span>
+              <span class="text-amber-400">•</span>
+              <span class="flex items-center gap-1.5 text-slate-700">
+                <svg class="h-4 w-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                Nincs kopásdíj
+              </span>
+            </div>
+
+            <!-- Fő CTA gomb + bizalmi info -->
+            <div class="mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <a href="#foglalas" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-2xl bg-amber-400 px-8 py-4 text-base font-bold text-slate-900 shadow-md shadow-amber-400/20 transition-all duration-200 hover:bg-amber-300 hover:shadow-lg active:scale-[0.98]">
+                Időpontot foglalok
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </a>
+              <p class="text-xs sm:text-sm font-medium text-slate-500">
+                Fizetés csak átvételkor • 20 000 Ft kaució
+              </p>
+            </div>
+          </div>
+
+          <!-- Jobb oldali Wolt-szerű vizuális összefoglaló kártya -->
+          <div class="lg:col-span-5">
+            <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-xl shadow-slate-200/60">
+              <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+                <div class="flex items-center gap-3">
+                  <div class="flex h-12 w-12 items-center justify-center rounded-2xl bg-amber-400/20 text-amber-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M12 2v4" />
+                      <path d="m16.2 7.8 2.9-2.9" />
+                      <path d="M18 12h4" />
+                      <path d="m16.2 16.2 2.9 2.9" />
+                      <path d="M12 18v4" />
+                      <path d="m4.9 19.1 2.9-2.9" />
+                      <path d="M2 12h4" />
+                      <path d="m4.9 4.9 2.9 2.9" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="font-display font-bold text-slate-900">Kärcher kárpittisztító</p>
+                    <p class="text-xs text-slate-500">Profi gép + 2 db tisztítótabletta</p>
+                  </div>
+                </div>
+                <span class="rounded-full bg-emerald-100 px-3 py-1 text-xs font-bold text-emerald-700">
+                  Mindent tartalmaz
+                </span>
+              </div>
+
+              <!-- Mini kiszállítási részletek -->
+              <div class="mt-5 space-y-3.5 text-sm">
+                <div class="flex items-center justify-between rounded-xl bg-slate-50 px-4 py-3">
+                  <span class="text-slate-500">Kiszállítási zóna</span>
+                  <span class="font-semibold text-slate-900">Budapest XIII. kerület</span>
+                </div>
+                <div class="flex items-center justify-between rounded-xl bg-slate-50 px-4 py-3">
+                  <span class="text-slate-500">Átadás / visszavétel</span>
+                  <span class="font-semibold text-slate-900">16:00 – 20:30</span>
+                </div>
+                <div class="flex items-center justify-between rounded-xl bg-slate-50 px-4 py-3">
+                  <span class="text-slate-500">Kiszállítás és kopásdíj</span>
+                  <span class="font-bold text-emerald-600">0 Ft</span>
+                </div>
+              </div>
+
+              <div class="mt-5 flex items-center justify-between border-t border-slate-100 pt-4">
+                <div>
+                  <p class="text-xs text-slate-500">Teljes 24 órás bérleti díj</p>
+                  <p class="font-display text-2xl font-extrabold text-slate-900">8 900 Ft</p>
+                </div>
+                <div class="text-right">
+                  <p class="text-xs text-slate-500">Visszajáró kaució</p>
+                  <p class="text-sm font-semibold text-slate-700">20 000 Ft</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. HOGYAN MŰKÖDIK? ==================== -->
+    <section class="py-16 sm:py-20">
+      <div class="mx-auto max-w-5xl px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto">
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-600">Egyszerű és gyors</span>
+          <h2 class="mt-2 font-display text-2xl sm:text-3xl font-extrabold text-slate-900">
+            Hogyan működik?
+          </h2>
+          <p class="mt-3 text-slate-600">
+            Nincs telefonálgatás és nincs sorban állás. Három egyszerű lépésben tiszta lesz a kanapéd.
+          </p>
+        </div>
+
+        <div class="mt-10 grid grid-cols-1 gap-6 md:grid-cols-3">
+          <!-- 1. lépés -->
+          <div class="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
+            <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-400 font-display text-lg font-extrabold text-slate-900 shadow-sm">
+              1
+            </div>
+            <h3 class="mt-5 font-display text-lg font-bold text-slate-900">Lefoglalod a napot</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">
+              1 perc alatt megadod, melyik napon szeretnél takarítani. Előre nem kell fizetned semmit.
+            </p>
+          </div>
+
+          <!-- 2. lépés -->
+          <div class="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
+            <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-400 font-display text-lg font-extrabold text-slate-900 shadow-sm">
+              2
+            </div>
+            <h3 class="mt-5 font-display text-lg font-bold text-slate-900">Kivisszük (16:00–20:30)</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">
+              Átadjuk a gépet, a 2 db tisztítótablettát, és 2 percben megmutatjuk a használatát.
+            </p>
+          </div>
+
+          <!-- 3. lépés -->
+          <div class="rounded-2xl border border-slate-200/80 bg-white p-6 shadow-sm transition-shadow hover:shadow-md">
+            <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-amber-400 font-display text-lg font-extrabold text-slate-900 shadow-sm">
+              3
+            </div>
+            <h3 class="mt-5 font-display text-lg font-bold text-slate-900">Másnap elhozzuk (16:00–20:30)</h3>
+            <p class="mt-2 text-sm leading-relaxed text-slate-600">
+              Nem kell sehova vinned, ugyanakkor jövünk érte, a kauciódat pedig egyből visszaadjuk.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. MI VAN AZ ÁRBAN? ==================== -->
+    <section class="py-16 sm:py-20 bg-white border-y border-slate-200/70">
+      <div class="mx-auto max-w-4xl px-4 sm:px-6">
+        <div class="text-center max-w-2xl mx-auto">
+          <span class="text-xs font-bold uppercase tracking-wider text-emerald-600">Átlátható feltételek</span>
+          <h2 class="mt-2 font-display text-2xl sm:text-3xl font-extrabold text-slate-900">
+            Mi van a 8 900 Ft-os árban?
+          </h2>
+        </div>
+
+        <div class="mt-10 rounded-3xl border border-slate-200 bg-slate-50/70 p-6 sm:p-10 shadow-sm">
+          <ul class="space-y-4">
+            <li class="flex items-start gap-3.5">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-700">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </span>
+              <span class="text-base font-medium text-slate-800">
+                Ingyenes házhoz szállítás és elszállítás a XIII. kerületben (16:00–20:30 között)
+              </span>
+            </li>
+            <li class="flex items-start gap-3.5">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-700">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </span>
+              <span class="text-base font-medium text-slate-800">
+                Ingyenes esti házhoz szállítás és másnapi elszállítás a XIII. kerületben
+              </span>
+            </li>
+            <li class="flex items-start gap-3.5">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-700">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </span>
+              <span class="text-base font-medium text-slate-800">
+                2 db gyári Kärcher tisztítótabletta (egy nagy kanapéra és matracra is bőven elég)
+              </span>
+            </li>
+            <li class="flex items-start gap-3.5">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-700">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </span>
+              <span class="text-base font-medium text-slate-800">
+                2 perces gyorstalpaló átadáskor + 1 perces használati videó
+              </span>
+            </li>
+            <li class="flex items-start gap-3.5">
+              <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-700">
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+              </span>
+              <span class="text-base font-medium text-slate-800">
+                Nincs kopásdíj, nincsenek rejtett költségek
+              </span>
+            </li>
+          </ul>
+
+          <!-- Külön kiemelt kaució doboz -->
+          <div class="mt-8 flex items-start gap-3.5 rounded-2xl border border-amber-200 bg-amber-50/90 p-5">
+            <div class="mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-xl bg-amber-400/30 text-amber-800">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 16v-4" />
+                <path d="M12 8h.01" />
+              </svg>
+            </div>
+            <div>
+              <p class="font-display font-bold text-slate-900">Kaució: 20 000 Ft</p>
+              <p class="mt-1 text-sm leading-relaxed text-slate-700">
+                Átadáskor készpénzben vagy azonnali átutalással, a gép visszavételekor természetesen egyből visszajár.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. MINI GYIK (HARMONIKA) ==================== -->
+    <section class="py-16 sm:py-20">
+      <div class="mx-auto max-w-3xl px-4 sm:px-6">
+        <div class="text-center">
+          <span class="text-xs font-bold uppercase tracking-wider text-amber-600">GYIK</span>
+          <h2 class="mt-2 font-display text-2xl sm:text-3xl font-extrabold text-slate-900">
+            Gyakori kérdések
+          </h2>
+        </div>
+
+        <div class="mt-10 space-y-3" id="faq-container">
+          <!-- Kérdés 1 -->
+          <div class="faq-item rounded-2xl border border-slate-200 bg-white overflow-hidden transition-shadow hover:shadow-sm">
+            <button type="button" class="faq-trigger flex w-full items-center justify-between gap-4 px-6 py-5 text-left font-display font-bold text-slate-900 focus:outline-none" aria-expanded="false">
+              <span>Nehéz használni a gépet?</span>
+              <svg class="faq-icon h-5 w-5 shrink-0 text-slate-400 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm leading-relaxed text-slate-600">
+              Általában 4–6 óra, ezért ideális délután vagy este megcsinálni. A gép a víz nagy részét egyből visszaszívja.
+            </div>
+          </div>
+
+          <!-- Kérdés 2 -->
+          <div class="faq-item rounded-2xl border border-slate-200 bg-white overflow-hidden transition-shadow hover:shadow-sm">
+            <button type="button" class="faq-trigger flex w-full items-center justify-between gap-4 px-6 py-5 text-left font-display font-bold text-slate-900 focus:outline-none" aria-expanded="false">
+              <span>Mennyi idő alatt szárad meg a kanapé vagy a matrac?</span>
+              <svg class="faq-icon h-5 w-5 shrink-0 text-slate-400 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm leading-relaxed text-slate-600">
+              Általában 4–6 óra, ezért ideális este vagy reggel megcsinálni. A gép a víz nagy részét egyből visszaszívja.
+            </div>
+          </div>
+
+          <!-- Kérdés 3 -->
+          <div class="faq-item rounded-2xl border border-slate-200 bg-white overflow-hidden transition-shadow hover:shadow-sm">
+            <button type="button" class="faq-trigger flex w-full items-center justify-between gap-4 px-6 py-5 text-left font-display font-bold text-slate-900 focus:outline-none" aria-expanded="false">
+              <span>Kell bármit előre fizetnem?</span>
+              <svg class="faq-icon h-5 w-5 shrink-0 text-slate-400 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm leading-relaxed text-slate-600">
+              Nem, a foglalás teljesen ingyenes. A 8 900 Ft bérleti díjat és a 20 000 Ft kauciót csak a gép átvételekor kell kifizetned.
+            </div>
+          </div>
+
+          <!-- Kérdés 4 -->
+          <div class="faq-item rounded-2xl border border-slate-200 bg-white overflow-hidden transition-shadow hover:shadow-sm">
+            <button type="button" class="faq-trigger flex w-full items-center justify-between gap-4 px-6 py-5 text-left font-display font-bold text-slate-900 focus:outline-none" aria-expanded="false">
+              <span>Mely városrészekbe szállítotok?</span>
+              <svg class="faq-icon h-5 w-5 shrink-0 text-slate-400 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm leading-relaxed text-slate-600">
+              Jelenleg a XIII. kerület teljes területén (Újlipótváros, Vizafogó, Angyalföld, Marina Part) szállítunk ingyenesen.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. FOGLALÁSI ŰRLAP (#foglalas) ==================== -->
+    <section id="foglalas" class="py-16 sm:py-24 bg-slate-900 text-white">
+      <div class="mx-auto max-w-xl px-4 sm:px-6">
+        <div class="text-center">
+          <span class="inline-flex items-center rounded-full bg-amber-400/15 px-3 py-1 text-xs font-bold text-amber-300 border border-amber-400/30">
+            Ingyenes foglalás • Fizetés csak átvételkor
+          </span>
+          <h2 class="mt-3 font-display text-2xl sm:text-3xl font-extrabold text-white">
+            Foglald le a napodat 1 perc alatt
+          </h2>
+          <p class="mt-2.5 text-sm sm:text-base text-slate-300">
+            Add meg az adataidat, és hamarosan visszaigazoljuk a kiszállítást.
+          </p>
+        </div>
+
+        <!-- Űrlap kártya -->
+        <div class="mt-8 rounded-3xl bg-white p-6 sm:p-8 text-slate-900 shadow-2xl">
+          <!-- Hibaüzenet doboz (rejtve alapból, alert() helyett) -->
+          <div id="form-error" class="hidden mb-5 rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm font-medium text-red-700" role="alert">
+          </div>
+
+          <!-- Maga a foglalási űrlap -->
+          <form id="booking-form" class="space-y-5" novalidate>
+            <!-- Teljes név -->
+            <div>
+              <label for="name" class="block text-sm font-semibold text-slate-800 mb-1.5">
+                Teljes név <span class="text-red-500">*</span>
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="nev"
+                required
+                placeholder="Pl. Kovács Anna"
+                class="w-full rounded-xl border border-slate-300 bg-slate-50/50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 transition focus:border-amber-400 focus:bg-white focus:outline-none focus:ring-4 focus:ring-amber-400/20"
+              />
+            </div>
+
+            <!-- E-mail vagy telefonszám -->
+            <div>
+              <label for="contact" class="block text-sm font-semibold text-slate-800 mb-1.5">
+                E-mail cím vagy telefonszám <span class="text-red-500">*</span>
+              </label>
+              <input
+                type="text"
+                id="contact"
+                name="elerhetoseg"
+                required
+                placeholder="Pl. anna@gmail.com vagy +36 30 123 4567"
+                class="w-full rounded-xl border border-slate-300 bg-slate-50/50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 transition focus:border-amber-400 focus:bg-white focus:outline-none focus:ring-4 focus:ring-amber-400/20"
+              />
+            </div>
+
+            <!-- Melyik napra szeretnéd? -->
+            <div>
+              <label for="date" class="block text-sm font-semibold text-slate-800 mb-1.5">
+                Melyik napra szeretnéd? <span class="text-red-500">*</span>
+              </label>
+              <input
+                type="date"
+                id="date"
+                name="datum"
+                required
+                class="w-full rounded-xl border border-slate-300 bg-slate-50/50 px-4 py-3 text-sm text-slate-900 transition focus:border-amber-400 focus:bg-white focus:outline-none focus:ring-4 focus:ring-amber-400/20"
+              />
+              <p class="mt-1 text-xs text-slate-500">Kiszállítás a választott napon 16:00 és 20:30 között.</p>
+            </div>
+
+            <!-- Mit szeretnél tisztítani? (érintésbarát választó gombok) -->
+            <div>
+              <span class="block text-sm font-semibold text-slate-800 mb-2">
+                Mit szeretnél tisztítani? <span class="text-red-500">*</span>
+              </span>
+              <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5">
+                <label class="cursor-pointer">
+                  <input type="radio" name="tisztitando" value="Kanapé" class="peer sr-only" checked />
+                  <div class="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-center text-sm font-medium text-slate-700 transition peer-checked:border-amber-500 peer-checked:bg-amber-50 peer-checked:text-slate-900 peer-checked:font-semibold hover:bg-slate-100">
+                    Kanapé
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="tisztitando" value="Matrac" class="peer sr-only" />
+                  <div class="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-center text-sm font-medium text-slate-700 transition peer-checked:border-amber-500 peer-checked:bg-amber-50 peer-checked:text-slate-900 peer-checked:font-semibold hover:bg-slate-100">
+                    Matrac
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="tisztitando" value="Szőnyeg" class="peer sr-only" />
+                  <div class="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-center text-sm font-medium text-slate-700 transition peer-checked:border-amber-500 peer-checked:bg-amber-50 peer-checked:text-slate-900 peer-checked:font-semibold hover:bg-slate-100">
+                    Szőnyeg
+                  </div>
+                </label>
+                <label class="cursor-pointer">
+                  <input type="radio" name="tisztitando" value="Autóülés" class="peer sr-only" />
+                  <div class="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-center text-sm font-medium text-slate-700 transition peer-checked:border-amber-500 peer-checked:bg-amber-50 peer-checked:text-slate-900 peer-checked:font-semibold hover:bg-slate-100">
+                    Autóülés
+                  </div>
+                </label>
+                <label class="cursor-pointer col-span-2 sm:col-span-2">
+                  <input type="radio" name="tisztitando" value="Több dolgot is" class="peer sr-only" />
+                  <div class="rounded-xl border border-slate-200 bg-slate-50 px-3 py-2.5 text-center text-sm font-medium text-slate-700 transition peer-checked:border-amber-500 peer-checked:bg-amber-50 peer-checked:text-slate-900 peer-checked:font-semibold hover:bg-slate-100">
+                    Több dolgot is
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <!-- Megjegyzés / utca (opcionális) -->
+            <div>
+              <label for="note" class="block text-sm font-semibold text-slate-800 mb-1.5">
+                Utca vagy megjegyzés <span class="font-normal text-slate-400">(opcionális)</span>
+              </label>
+              <textarea
+                id="note"
+                name="megjegyzes"
+                rows="2"
+                placeholder="Pl. Hollán Ernő utca, 19 óra után lenne a legjobb"
+                class="w-full rounded-xl border border-slate-300 bg-slate-50/50 px-4 py-3 text-sm text-slate-900 placeholder:text-slate-400 transition focus:border-amber-400 focus:bg-white focus:outline-none focus:ring-4 focus:ring-amber-400/20"
+              ></textarea>
+            </div>
+
+            <!-- Küldés gomb -->
+            <button
+              type="submit"
+              id="submit-btn"
+              class="w-full inline-flex items-center justify-center gap-2 rounded-2xl bg-amber-400 px-6 py-4 text-base font-bold text-slate-900 shadow-md shadow-amber-400/20 transition-all duration-200 hover:bg-amber-300 active:scale-[0.99] disabled:opacity-60 disabled:cursor-not-allowed"
+            >
+              <span id="submit-text">Foglalás elküldése</span>
+              <svg id="submit-spinner" class="hidden h-5 w-5 animate-spin text-slate-900" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+              </svg>
+            </button>
+
+            <p class="text-center text-xs text-slate-500">
+              8 900 Ft / 24 óra • Ingyenes kiszállítás • 20 000 Ft kaució átadáskor
+            </p>
+          </form>
+
+          <!-- ==================== SIKERES BEKÜLDÉS (FÜSTTESZT VISSZAJELZÉS) ==================== -->
+          <div id="success-card" class="hidden text-center py-4">
+            <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-emerald-100 text-emerald-600">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+
+            <h3 class="mt-5 font-display text-2xl font-extrabold text-slate-900">
+              Köszi a foglalást!
+            </h3>
+
+            <p class="mt-3 text-sm sm:text-base leading-relaxed text-slate-600">
+              A gépeink erre a hétre sajnos már beteltek, de felvettünk az elsőbbségi listára. Amint felszabadul egy gép, keresünk – és a várakozásért cserébe
+              <span class="font-bold text-slate-900 bg-amber-200/70 px-1.5 py-0.5 rounded">20% kedvezményt</span>
+              adunk az első bérlésedből.
+            </p>
+
+            <button
+              type="button"
+              id="reset-btn"
+              class="mt-7 inline-flex items-center justify-center rounded-xl border border-slate-300 bg-white px-5 py-2.5 text-sm font-semibold text-slate-700 transition hover:bg-slate-50 active:scale-[0.98]"
+            >
+              Új foglalás leadása
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== 7. LÁBLÉC (FOOTER) ==================== -->
+  <footer class="border-t border-slate-200 bg-white py-8">
+    <div class="mx-auto max-w-5xl px-4 sm:px-6 text-center text-sm text-slate-500">
+      <p class="font-medium text-slate-700">© 2026 Bérli (berligepek.hu) • Budapest XIII. kerület</p>
+    </div>
+  </footer>
+
+  <!-- ==================== JAVASCRIPT LOGIKA ==================== -->
+  <script>
+    /**
+     * FORMSPREE BEÁLLÍTÁS:
+     * 1. Regisztrálj ingyenesen a https://formspree.io oldalon.
+     * 2. Hozz létre egy új űrlapot (New Form), és másold ki a kapott végpont URL-t.
+     * 3. Cseréld le az alábbi 'IDE_JON_A_KODOD' részt a saját végpontodra!
+     *
+     * Megjegyzés: Amíg a placeholder URL van itt, az oldal "teszt módban" fut,
+     * és beküldéskor egyből megjeleníti a sikeres füstteszt üzenetet hálózati hiba nélkül.
+     */
+    const FORMSPREE_URL = 'https://formspree.io/f/xzerkdgw';
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // --- 1. Minimum dátum beállítása a holnapi napra ---
+      const dateInput = document.getElementById('date');
+      if (dateInput) {
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        const yyyy = tomorrow.getFullYear();
+        const mm = String(tomorrow.getMonth() + 1).padStart(2, '0');
+        const dd = String(tomorrow.getDate()).padStart(2, '0');
+        const minDateStr = `${yyyy}-${mm}-${dd}`;
+        dateInput.min = minDateStr;
+        dateInput.value = minDateStr;
+      }
+
+      // --- 2. Interaktív GYIK harmonika (Accordion) ---
+      const faqTriggers = document.querySelectorAll('.faq-trigger');
+      faqTriggers.forEach((trigger) => {
+        trigger.addEventListener('click', () => {
+          const item = trigger.closest('.faq-item');
+          const content = item.querySelector('.faq-content');
+          const icon = item.querySelector('.faq-icon');
+          const isOpen = trigger.getAttribute('aria-expanded') === 'true';
+
+          // Másik nyitott elemek becsukása a letisztult élményért
+          faqTriggers.forEach((otherTrigger) => {
+            if (otherTrigger !== trigger) {
+              otherTrigger.setAttribute('aria-expanded', 'false');
+              const otherItem = otherTrigger.closest('.faq-item');
+              otherItem.querySelector('.faq-content').classList.add('hidden');
+              otherItem.querySelector('.faq-icon').classList.remove('rotate-180');
+            }
+          });
+
+          // Aktuális elem nyitása / zárása
+          if (isOpen) {
+            trigger.setAttribute('aria-expanded', 'false');
+            content.classList.add('hidden');
+            icon.classList.remove('rotate-180');
+          } else {
+            trigger.setAttribute('aria-expanded', 'true');
+            content.classList.remove('hidden');
+            icon.classList.add('rotate-180');
+          }
+        });
+      });
+
+      // --- 3. Foglalási űrlap kezelése és Formspree integráció ---
+      const form = document.getElementById('booking-form');
+      const successCard = document.getElementById('success-card');
+      const errorBox = document.getElementById('form-error');
+      const submitBtn = document.getElementById('submit-btn');
+      const submitText = document.getElementById('submit-text');
+      const submitSpinner = document.getElementById('submit-spinner');
+      const resetBtn = document.getElementById('reset-btn');
+
+      /**
+       * Hibaüzenet megjelenítése az űrlap tetején
+       */
+      function showError(message) {
+        errorBox.textContent = message;
+        errorBox.classList.remove('hidden');
+      }
+
+      /**
+       * Hibaüzenet elrejtése
+       */
+      function hideError() {
+        errorBox.textContent = '';
+        errorBox.classList.add('hidden');
+      }
+
+      /**
+       * Gomb betöltési állapotának váltása
+       */
+      function setLoading(isLoading) {
+        submitBtn.disabled = isLoading;
+        if (isLoading) {
+          submitText.textContent = 'Küldés folyamatban...';
+          submitSpinner.classList.remove('hidden');
+        } else {
+          submitText.textContent = 'Foglalás elküldése';
+          submitSpinner.classList.add('hidden');
+        }
+      }
+
+      /**
+       * Sikeres beküldés képernyő megjelenítése
+       */
+      function showSuccess() {
+        form.classList.add('hidden');
+        hideError();
+        successCard.classList.remove('hidden');
+      }
+
+      form.addEventListener('submit', async (event) => {
+        event.preventDefault();
+        hideError();
+
+        // Alapvető kliensoldali validáció
+        const nameVal = document.getElementById('name').value.trim();
+        const contactVal = document.getElementById('contact').value.trim();
+        const dateVal = document.getElementById('date').value;
+
+        if (!nameVal || !contactVal || !dateVal) {
+          showError('Kérjük, töltsd ki az összes csillaggal jelölt mezőt!');
+          return;
+        }
+
+        const formData = new FormData(form);
+        const isPlaceholder =
+          !FORMSPREE_URL ||
+          FORMSPREE_URL.includes('IDE_JON_A_KODOD');
+
+        setLoading(true);
+
+        try {
+          if (isPlaceholder) {
+            // Teszt mód: szimulált küldés 500 ms késleltetéssel
+            await new Promise((resolve) => setTimeout(resolve, 500));
+            showSuccess();
+          } else {
+            // Éles mód: adatok elküldése Formspree-nek POST kéréssel
+            const response = await fetch(FORMSPREE_URL, {
+              method: 'POST',
+              body: formData,
+              headers: {
+                Accept: 'application/json',
+              },
+            });
+
+            if (response.ok) {
+              showSuccess();
+            } else {
+              const data = await response.json().catch(() => ({}));
+              const msg = data.errors
+                ? data.errors.map((err) => err.message).join(', ')
+                : 'Hiba történt a küldés során. Kérjük, próbáld újra pár pillanat múlva!';
+              showError(msg);
+            }
+          }
+        } catch (err) {
+          showError('Hálózati hiba történt. Ellenőrizd az internetkapcsolatodat és próbáld újra!');
+        } finally {
+          setLoading(false);
+        }
+      });
+
+      // --- 4. Űrlap visszaállítása teszteléshez ---
+      resetBtn.addEventListener('click', () => {
+        form.reset();
+        // Alapértelmezett holnapi dátum visszaállítása
+        if (dateInput && dateInput.min) {
+          dateInput.value = dateInput.min;
+        }
+        successCard.classList.add('hidden');
+        form.classList.remove('hidden');
+      });
+    });
+  </script>
+</body>
+</html>
